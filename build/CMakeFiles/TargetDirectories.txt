@@ -1,3 +1,0 @@
-/home/ayush/Desktop/RANSAC/build/CMakeFiles/RP.dir
-/home/ayush/Desktop/RANSAC/build/CMakeFiles/edit_cache.dir
-/home/ayush/Desktop/RANSAC/build/CMakeFiles/rebuild_cache.dir
