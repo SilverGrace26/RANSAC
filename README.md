@@ -6,21 +6,26 @@ To test this algorithm, follow these steps:
 
 1.  **Clone the Repository**
 
-2.  **Navigate to the Build Directory**
+2.  **Make sure the follwing script is executable**
     ```bash
-    cd build
+    run.sh
     ```
 
-3.  **Run the RANSAC Executables**
+3.  **Use the script to run RANSAC Executables**
 
     * For **RANSAC Line** (fitting the equation of a line):
         ```bash
-        ./RL
+        ./run.sh RL
         ```
 
     * For **RANSAC Plane** (fitting the equation of a plane):
         ```bash
-        ./RP
+        ./run.sh RP
+        ```
+
+    * For **Both** :
+        ```bash
+        ./run.sh RL RP
         ```
 
 Also check out my article where I explain the algorithm along with code bits: [Guide to Implementing RANSAC in C++](https://flashblog.hashnode.dev/guide-to-implementing-ransac-in-c-programming).
